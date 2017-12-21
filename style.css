@@ -328,6 +328,14 @@ li a:hover{ text-decoration: none; color:#111;}
 
 =============================================================================================================== */
 .single-head{ margin-top: 8em;}
+.sing-desc ul{
+    list-style: initial;
+    margin: initial;
+    padding: 0 0 0 40px;
+}
+
+.sing-desc ul li{ display: list-item; list-style-type: disc; }
+
 
 
 
