@@ -14,7 +14,6 @@ $(document).ready(function () {
     function width(){
         var width = $( window ).width();
         var show = $('.show');
-        console.log(width);
     }
     width();
     $(window).resize(function() {

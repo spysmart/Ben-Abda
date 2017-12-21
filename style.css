@@ -327,7 +327,7 @@ li a:hover{ text-decoration: none; color:#111;}
     SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE  
 
 =============================================================================================================== */
-
+.single-head{ margin-top: 8em;}
 
 
 
@@ -338,11 +338,11 @@ li a:hover{ text-decoration: none; color:#111;}
 /* MEDIA QUERY */
 @media (min-width:1200px) and (max-width:1444px){
     .side-menu{top: 0;right: 0;width: 120px;}
-    .ciseau{top:7em; right: 2.5em}
-    .line{top:9em; right: 3em;}
-    .x-1{top: 20em;right: 4.5em;}
-    .x-2{top: 33em;right: 2.6em;}
-    .x-3{ top: 46em;right: 4em;}
+    .ciseau{top:4.6em; right: 2.5em}
+    .line{top:6em; right: 3em;}
+    .x-1{top: 18em;right: 4.5em;}
+    .x-2{top: 28em;right: 2.6em;}
+    .x-3{ top: 38em;right: 4em;}
     .navbar{visibility: hidden}
     .discription{ margin-bottom: 6em;}
     .section_two .header{ width: 48%}
@@ -363,11 +363,11 @@ li a:hover{ text-decoration: none; color:#111;}
 }
 @media (min-width:1024px) and (max-width:1200px){
     .side-menu{top: 0;right: 0;width: 120px;}
-    .ciseau{top:7em; right: 2.5em}
-    .line{top:9em; right: 3em;}
-    .x-1{top: 20em;right: 4.5em;}
-    .x-2{top: 33em;right: 2.6em;}
-    .x-3{ top: 46em;right: 4em;}
+    .ciseau{top:4.6em; right: 2.5em}
+    .line{top:6em; right: 3em;}
+    .x-1{top: 18em;right: 4.5em;}
+    .x-2{top: 28em;right: 2.6em;}
+    .x-3{ top: 38em;right: 4em;}
     .discription{ margin-bottom: 6em;}
     .section_two .header{ width: 48%}
     .section_one .img-01{position: relative; z-index: 2}
@@ -388,11 +388,11 @@ li a:hover{ text-decoration: none; color:#111;}
 }
 @media (min-width:992px) and (max-width:1024px){
     .side-menu{top: 0;right: 0;width: 120px;}
-    .ciseau{top:7em; right: 2.5em}
-    .line{top:9em; right: 3em;}
-    .x-1{top: 20em;right: 4.5em;}
-    .x-2{top: 33em;right: 2.6em;}
-    .x-3{ top: 46em;right: 4em;}
+    .ciseau{top:4.6em; right: 2.5em}
+    .line{top:6em; right: 3em;}
+    .x-1{top: 18em;right: 4.5em;}
+    .x-2{top: 28em;right: 2.6em;}
+    .x-3{ top: 38em;right: 4em;}
     .navbar{visibility: hidden}
     .discription{ margin-bottom: 6em;}
     .section_two .header{ width: 48%}
@@ -413,11 +413,11 @@ li a:hover{ text-decoration: none; color:#111;}
 }
 @media (min-width:768px) and (max-width:991px){
     .side-menu{top: 0;right: 0;width: 120px;}
-    .ciseau{top:7em; right: 2.5em}
-    .line{top:9em; right: 3em;}
-    .x-1{top: 20em;right: 4.5em;}
-    .x-2{top: 33em;right: 2.6em;}
-    .x-3{ top: 46em;right: 4em;}
+    .ciseau{top:4.6em; right: 2.5em}
+    .line{top:6em; right: 3em;}
+    .x-1{top: 18em;right: 4.5em;}
+    .x-2{top: 28em;right: 2.6em;}
+    .x-3{ top: 38em;right: 4em;}
     .navbar{visibility: hidden}
     .section_one .img-02{position: relative; top: 0em;}
     .section_one .img-03{position: relative;top:0em;left:0em;}
