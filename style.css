@@ -327,15 +327,21 @@ li a:hover{ text-decoration: none; color:#111;}
     SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE  
 
 =============================================================================================================== */
-.single-head{ margin-top: 8em;}
+.single-head{ margin-top: 5em;}
+.sing-desc{ margin-top: 3em; padding-left: 3em}
+.sing-desc h2 {font-family:'ButlerRegular', serif; color: #111; padding-bottom: .7em}
+.sing-desc h5,.sing-desc span{ padding-left: 3em}
+.sing-desc h5{ font-family:'Montserrat', serif; color: #111; font-weight: 500}
+.sing-desc span{font-family:'Montserrat', serif; font-size: .8em; margin-left: 1em; }
 .sing-desc ul{
     list-style: initial;
     margin: initial;
-    padding: 0 0 0 40px;
+    padding: 2em 0 3em 40px;
 }
-
 .sing-desc ul li{ display: list-item; list-style-type: disc; }
-
+.sing-desc .descrip{ margin-bottom: 2.5em}
+.sing-desc .notice{ margin-bottom: 2.5em}
+.sing-desc .sing-img { position: absolute;}
 
 
 
