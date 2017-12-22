@@ -306,22 +306,6 @@ li a:hover{ text-decoration: none; color:#111;}
 .section_three .img-02{position: relative; top: 5em; z-index: 2}
 .section_three .img-03{position: relative; top: -22em;  z-index: 2}
 .section_three .img-deco{position: relative; top: 11em; }
-
-/* ===============================================================================================================
-
-    PRODUCT PAGE PRODUCT PAGE PRODUCT PAGE PRODUCT PAGE PRODUCT PAGE PRODUCT PAGE PRODUCT PAGE PRODUCT PAGE 
-
-=============================================================================================================== */
-.prod-head{ margin-top: 5em; position: relative; z-index: 1}
-.prod-head .title {text-indent:1em; position: absolute; z-index: 2; top: 1.2em; left: 14em;font-family:'ButlerRegular', sans-serif; font-size: 3em; color: #111}
-.para{font-family:'ButlerRegular', serif; margin-left: 4em; margin-top: 3em; margin-right: 5em; font-size: 1.5em }
-.baground{ position: absolute; top: 17em; right: -20em; z-index: -1; }
-.collection{ margin-top: 7em; margin-bottom: 5em;}
-.collection .one { margin-top: 2.5em}
-.collection .two { margin-top: 5em}
-.collection .items h2{ padding-left: .5em; font-family:'ButlerRegular', serif; color: #111 }
-.collection .items p{ line-height: 2em; padding: 1em 2em; font-family: 'Montserrat', serif}
-
 /* ===============================================================================================================
 
     SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE SINGLE PAGE  
@@ -345,8 +329,30 @@ li a:hover{ text-decoration: none; color:#111;}
 .sing-collection .one { margin-top: 2.5em}
 .sing-collection .two { margin-top: 5em}
 
+/* ===============================================================================================================
+
+    PRODUCT PAGE PRODUCT PAGE PRODUCT PAGE PRODUCT PAGE PRODUCT PAGE PRODUCT PAGE PRODUCT PAGE PRODUCT PAGE 
+
+=============================================================================================================== */
+.prod-head{ margin-top: 5em; position: relative; z-index: 1}
+.prod-head .title {text-indent:1em; position: absolute; z-index: 2; top: 1.2em; left: 14em;font-family:'ButlerRegular', sans-serif; font-size: 3em; color: #111}
+.para{font-family:'ButlerRegular', serif; margin-left: 4em; margin-top: 3em; margin-right: 5em; font-size: 1.5em }
+.baground{ position: absolute; top: 17em; right: -20em; z-index: -1; }
+.collection{ margin-top: 6em; margin-bottom: 5em;}
+.collection .one { margin-top: 2.5em}
+.collection .two { margin-top: 5em}
+.collection .items h2{ padding-left: .5em; font-family:'ButlerRegular', serif; color: #111 }
+.collection .items p{ line-height: 2em; padding: 1em 2em 0 0; font-family: 'Montserrat', serif}
+
+
 /* MEDIA QUERY */
 @media (min-width:1200px) and (max-width:1444px){
+    /* PRODUCT PAGE */
+    .baground{ display: none; }
+    .collection{ margin-top: 2em; margin-bottom: 3em;}
+    .prod-head {margin-top: 7em;}
+    .collection .items p{ line-height: 2em; padding: .5em 0 0em 0; font-family: 'Montserrat', serif; text-align: center;font-size: .8em }
+    .collection .items h2{ padding-left: 0em; font-family:'ButlerRegular', serif; color: #111; text-align: center;font-size: 1.5em }
     /* SINGLE PAGE */
     .single-head{ margin-top: 7em;}
     .sing-desc{ margin-top: 3em; padding-left: 1.2em}
@@ -379,6 +385,15 @@ li a:hover{ text-decoration: none; color:#111;}
     .section_three .img-deco{position: relative; top: 11em; }
 }
 @media (min-width:1024px) and (max-width:1200px){
+    /* PRODUCT PAGE */
+    .baground{ display: none}
+    .prod-head {margin-top: 8em;}
+    .prod-head .title {text-indent:0em; position: absolute; z-index: 2; top: 5em; left: 10em; font-family:'ButlerRegular', sans-serif; font-size: 2.8em; color: #111; font-weight: 60;}
+    .para{font-family:'ButlerRegular', serif; margin-left: 0.5em; margin-top: 1.5em; margin-right:0.5em; font-size: 1.5em }
+    .collection{ margin-top: 1em; margin-bottom: 3em;}
+    .collection .discription{ margin-left: 1em;}
+    .collection .items h2{ padding-left: 0em; font-family:'ButlerRegular', serif; color: #111; text-align: center;font-size: 1.5em }
+    .collection .items p{ line-height: 2em; padding: .5em 0 0em 0; font-family: 'Montserrat', serif; text-align: center;font-size: .8em }
     /* SINGLE PAGE */
     .single-head{ margin-top: 9em;}
     .sing-desc{ margin-top: 3em; padding-left: 1.2em}
@@ -412,6 +427,15 @@ li a:hover{ text-decoration: none; color:#111;}
     .navbar{visibility: hidden} 
 }
 @media (min-width:992px) and (max-width:1024px){
+    /* PRODUCT PAGE */
+    .baground{ display: none}
+    .prod-head {margin-top: 8em;}
+    .prod-head .title {text-indent:0em; position: absolute; z-index: 2; top: 5em; left: 10em; font-family:'ButlerRegular', sans-serif; font-size: 2.8em; color: #111; font-weight: 60;}
+    .para{font-family:'ButlerRegular', serif; margin-left: 0.5em; margin-top: 1.5em; margin-right:0.5em; font-size: 1.5em }
+    .collection{ margin-top: 1em; margin-bottom: 3em;}
+    .collection .discription{ margin-left: 1em;}
+    .collection .items h2{ padding-left: 0em; font-family:'ButlerRegular', serif; color: #111; text-align: center;;font-size: 1.5em }
+    .collection .items p{ line-height: 2em; padding: .5em 0em 0 1; font-family: 'Montserrat', serif; text-align: center; }
     /* SINGLE PAGE */
     .single-head{ margin-top: 8em;}
     .sing-desc{ margin-top: 3em; padding-left: 0em}
@@ -445,6 +469,18 @@ li a:hover{ text-decoration: none; color:#111;}
     .section_three .img-deco{position: relative; top: 11em; }
 }
 @media (min-width:768px) and (max-width:991px){
+    /* PRODUCT PAGE */
+    .baground{ display: none}
+    .prod-head {margin-top: 8em;}
+    .prod-head .title {text-indent:0em; position: absolute; z-index: 2; top: 5em; left: 0em; text-align:center;font-family:'ButlerRegular', sans-serif; font-size: 2.5em; color: #111; font-weight: 60;}
+    .para{font-family:'ButlerRegular', serif; margin-left: 0.5em; margin-top: 1.5em; margin-right:0.5em; font-size: 1.5em }
+    .collection{ margin-top: 1em; margin-bottom: 3em;}
+    .collection .discription{ margin-left: 1em;}
+    .collection .items h2{ padding-left: 0em; font-family:'ButlerRegular', serif; color: #111; text-align: center;;font-size: 1.5em }
+    .collection .items p{ line-height: 2em; padding: .5em 0em 0 1; font-family: 'Montserrat', serif; text-align: center; }
+    .collection .one { margin-top: 0em}
+    .collection .two { margin-top: 0em}
+    .collection .i-2 {margin-top: 2em}
     /* SINGLE PAGE */
     .sing-desc .sing-img { display: none;}
     .single-head{ margin-top: 8em;}
@@ -484,6 +520,17 @@ li a:hover{ text-decoration: none; color:#111;}
     .section_two .header {width: 100% !important;}
 }
 @media (min-width:425px) and (max-width:767px){
+        /* PRODUCT PAGE */
+    .baground{ display: none}
+    .prod-head {margin-top: 8em;}
+    .prod-head .title {text-indent:0em; position: absolute; z-index: 2; top: 5em; left: 0em; text-align:center;font-family:'ButlerRegular', sans-serif; font-size: 2.5em; color: #111; font-weight: 600}
+    .para{font-family:'ButlerRegular', serif; margin-left: 0.5em; margin-top: 1em; margin-right:0.5em; font-size: 1.5em }
+    .collection{ margin-top: 1em; margin-bottom: 3em;}
+    .collection .discription{ margin-left: 1em;}
+    .collection .items h2{ padding-left: 0em; font-family:'ButlerRegular', serif; color: #111; text-align: center;;font-size: 2em }
+    .collection .items p{ line-height: 2em; padding: .5em 0em 0 1; font-family: 'Montserrat', serif; text-align: center; }
+    .collection .one { margin-top: 0em}
+    .collection .two { margin-top: 0em}
     /* SINGLE PAGE */
     .sing-desc .sing-img { display: none;}
     .single-head{ margin-top: 8em;}
@@ -518,6 +565,17 @@ li a:hover{ text-decoration: none; color:#111;}
     .section_two .header {width: 100% !important;}
 }
 @media (min-width:375px) and (max-width:425px){
+    /* PRODUCT PAGE */
+    .baground{ display: none}
+    .prod-head {margin-top: 10em;}
+    .prod-head .title {text-indent:0em; position: absolute; z-index: 2; top: 5em; left: 0em; text-align:center;font-family:'ButlerRegular', sans-serif; font-size: 2.8em; color: #111; font-weight: 600}
+    .para{font-family:'ButlerRegular', serif; margin-left: 0.5em; margin-top: 2em; margin-right:0.5em; font-size: 2em }
+    .collection{ margin-top: 0em; margin-bottom: 3em;}
+    .collection .discription{ margin-left: 1em;}
+    .collection .items h2{ padding-left: 0em; font-family:'ButlerRegular', serif; color: #111; text-align: center;;font-size: 3em }
+    .collection .items p{ line-height: 2em; padding: .5em 0em; font-family: 'Montserrat', serif; text-align: center; }
+    .collection .one { margin-top: 0em}
+    .collection .two { margin-top: 0em}
     /* SINGLE PAGE */
     .sing-desc .sing-img { display: none;}
     .single-head{ margin-top: 10em;}
@@ -557,6 +615,17 @@ li a:hover{ text-decoration: none; color:#111;}
     .section_two .header {width: 100% !important;}
 }
 @media (min-width:320px) and (max-width:375px){
+        /* PRODUCT PAGE */
+    .baground{ display: none}
+    .prod-head {margin-top: 10em;}
+    .prod-head .title {text-indent:0em; position: absolute; z-index: 2; top: 5em; left: 0em; text-align:center;font-family:'ButlerRegular', sans-serif; font-size: 2.8em; color: #111; font-weight: 600}
+    .para{font-family:'ButlerRegular', serif; margin-left: 1em; margin-top: 2em; margin-right:0.5em; font-size: 2em }
+    .collection{ margin-top: 0em; margin-bottom: 3em;}
+    .collection .discription{ margin-left: 1em;}
+    .collection .items h2{ padding-left: 0em; font-family:'ButlerRegular', serif; color: #111; text-align: center;;font-size: 3.5em }
+    .collection .items p{ line-height: 2em; padding: .5em 0em; font-family: 'Montserrat', serif; text-align: center; }
+    .collection .one { margin-top: 0em}
+    .collection .two { margin-top: 0em}
     /* SINGLE PAGE */
     .sing-desc .sing-img { display: none;}
     .single-head{ margin-top: 10em;}
@@ -596,6 +665,17 @@ li a:hover{ text-decoration: none; color:#111;}
     .section_two .header {width: 100% !important;}
 }
 @media (min-width:0px) and (max-width:320px){
+    /* PRODUCT PAGE */
+    .baground{ display: none}
+    .prod-head {margin-top: 10em;}
+    .prod-head .title {text-indent:0em; position: absolute; z-index: 2; top: 5em; left: 0em; text-align:center;font-family:'ButlerRegular', sans-serif; font-size: 3em; color: #111; font-weight: 600}
+    .para{font-family:'ButlerRegular', serif; margin-left: 1em; margin-top: 2em; margin-right:0.5em; font-size: 2em }
+    .collection{ margin-top: 0em; margin-bottom: 3em;}
+    .collection .discription{ margin-left: 1em;}
+    .collection .items h2{ padding-left: 0em; font-family:'ButlerRegular', serif; color: #111; text-align: center;;font-size: 3.5em }
+    .collection .items p{ line-height: 2em; padding: .5em 0em; font-family: 'Montserrat', serif; text-align: center; }
+    .collection .one { margin-top: 0em}
+    .collection .two { margin-top: 0em}
      /* SINGLE PAGE */
      .sing-desc .sing-img { display: none;}
      .single-head{ margin-top: 10em;}
