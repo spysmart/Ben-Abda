@@ -53,6 +53,8 @@ input{
     display: block;
     z-index: 9999999;
     cursor: pointer;
+    height: 50px;
+    width: 40px;
 }
 .navmenu.active .btn-exit {
     position: absolute;
@@ -62,6 +64,8 @@ input{
     display: block;
     z-index: 9999999;
     cursor: pointer;
+    height: 50px;
+    width: 30px;
 }
 .navmenu.active .btn-menu {
     display: none;
@@ -72,7 +76,7 @@ input{
 .navmenu .sidebar-header {
     padding: 20px;
 }
-.navmenu .sidebar-header svg{
+.navmenu .sidebar-header img{
     position: absolute;
     top: 1em;
     left: 1em;
@@ -168,6 +172,8 @@ input{
     left: 20%;
     z-index: 9999999;
     cursor: pointer;
+    height: 70px;
+    width: 50px;
 }
 .sidebar.active .btn-menu {
     display: none;
@@ -180,6 +186,8 @@ input{
     display: block;
     z-index: 9999999;
     cursor: pointer;
+    height: 30px;
+    width: 30px;
 }
 .sidebar .btn-exit {
     display: none;
@@ -216,11 +224,15 @@ input{
         position: absolute;
         z-index:10000; 
         top:7em;
+        height: 50px;
+        width: 45px;
     }
     .line{
         position: absolute;
         z-index:9999; 
         top:9em;
+        height: 300px;
+        width: 300px;
     }
     .x-1{
         position: absolute;
