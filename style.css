@@ -148,6 +148,11 @@ input{
 }
 .sidebar .sidebar-header {
     padding: 20px;
+    
+}
+.sidebar .sidebar-header img{
+    height: 90px;
+    width: 60px
 }
 .sidebar.active ul li a {
     padding: 10px;
